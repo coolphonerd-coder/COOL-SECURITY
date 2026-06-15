@@ -43,13 +43,14 @@ body:before{
   display:block;
   margin-top: 30px;
   filter:drop-shadow(0 0 12px rgba(139,44,255,.7));
-}
-display:flex;
+nav{
+    display:flex;
     gap:24px;
     align-items:center;
     flex:1;
     justify-content:center;
     margin-left:-150px;
+}
 .social{font-weight:800;font-size:22px;white-space:nowrap}
 .phone{
   text-decoration:none;color:white;font-weight:800;font-size:20px;
