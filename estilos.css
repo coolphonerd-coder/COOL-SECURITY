@@ -33,9 +33,9 @@ body:before{
   position:relative;
   z-index:2;
 }
-.brand{width:800px;flex-shrink:0}
+.brand{width:1250px;flex-shrink:0}
 .brand img{
-    height:100px;
+    height:190px;
     width:auto;
     max-width:800px;
     object-fit:contain;
