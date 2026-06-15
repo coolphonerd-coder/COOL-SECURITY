@@ -24,10 +24,11 @@ body:before{
 }
 .topbar{
   height:112px;
-  padding:8px 36px;
-  display:flex;
-  align-items:center;
-  gap:32px;
+    padding:8px 36px;
+    display:flex;
+    align-items:center;
+    gap:32px;
+    transform:translateX(-80px);
   background:rgba(8,0,20,.96);
   border-bottom:1px solid rgba(139,44,255,.45);
   position:relative;
