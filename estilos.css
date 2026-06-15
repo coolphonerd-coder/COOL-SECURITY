@@ -48,7 +48,7 @@ display:flex;
     align-items:center;
     flex:1;
     justify-content:center;
-    transform:translateX(-120px);
+    transform:translateX(-180px);
 .social{font-weight:800;font-size:22px;white-space:nowrap}
 .phone{
   text-decoration:none;color:white;font-weight:800;font-size:20px;
