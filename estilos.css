@@ -33,14 +33,14 @@ body:before{
   position:relative;
   z-index:2;
 }
-.brand{width:1000px;flex-shrink:0}
+.brand{width:1200px;flex-shrink:0}
 .brand img{
   height:200px;
   width:auto;
-  max-width:1000px;
+  max-width:1200px;
   object-fit:contain;
   display:block;
-  margin-top: 60px;
+  margin-top: 40px;
   filter:drop-shadow(0 0 12px rgba(139,44,255,.7));
 }
 nav{display:flex;gap:24px;align-items:center;flex:1;justify-content:center}
