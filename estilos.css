@@ -43,9 +43,12 @@ body:before{
   margin-top: 30px;
   filter:drop-shadow(0 0 12px rgba(139,44,255,.7));
 }
-nav{display:flex;gap:24px;align-items:center;flex:1;justify-content:center}
-nav a{color:white;text-decoration:none;font-weight:700;font-size:14px;white-space:nowrap}
-nav a.active{color:var(--green);border-bottom:3px solid var(--green);padding-bottom:8px}
+display:flex;
+    gap:24px;
+    align-items:center;
+    flex:1;
+    justify-content:center;
+    transform:translateX(-120px);
 .social{font-weight:800;font-size:22px;white-space:nowrap}
 .phone{
   text-decoration:none;color:white;font-weight:800;font-size:20px;
