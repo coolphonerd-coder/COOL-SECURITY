@@ -35,7 +35,7 @@ body:before{
 }
 .brand{width:800px;flex-shrink:0}
 .brand img{
-    height:200px;
+    height:110px;
     width:auto;
     max-width:800px;
     object-fit:contain;
