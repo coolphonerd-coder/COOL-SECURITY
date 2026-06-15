@@ -35,9 +35,9 @@ body:before{
 }
 .brand{width:1000px;flex-shrink:0}
 .brand img{
-  height:180px;
+  height:200px;
   width:auto;
-  max-width:160px;
+  max-width:200px;
   object-fit:contain;
   display:block;
   filter:drop-shadow(0 0 12px rgba(139,44,255,.7));
