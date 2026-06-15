@@ -33,11 +33,11 @@ body:before{
   position:relative;
   z-index:2;
 }
-.brand{width:850px;flex-shrink:0}
+.brand{width:1000px;flex-shrink:0}
 .brand img{
-  height:180px;
+  height:200px;
   width:auto;
-  max-width:850px;
+  max-width:1000px;
   object-fit:contain;
   display:block;
   margin-top: 60px;
