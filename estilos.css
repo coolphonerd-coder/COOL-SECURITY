@@ -40,7 +40,7 @@ body:before{
   max-width:1200px;
   object-fit:contain;
   display:block;
-  margin-top: 40px;
+  margin-top: 30px;
   filter:drop-shadow(0 0 12px rgba(139,44,255,.7));
 }
 nav{display:flex;gap:24px;align-items:center;flex:1;justify-content:center}
