@@ -37,7 +37,7 @@ body:before{
 .brand img{
     height:190px;
     width:auto;
-    max-width:800px;
+    max-width:1250px;
     object-fit:contain;
     display:block;
     filter:drop-shadow(0 0 12px rgba(139,44,255,.7));
