@@ -1,0 +1,1 @@
+console.log('COOL SECURITY - logo grande');
