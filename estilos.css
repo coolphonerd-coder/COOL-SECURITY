@@ -33,11 +33,11 @@ body:before{
   position:relative;
   z-index:2;
 }
-.brand{width:430px;flex-shrink:0}
+.brand{width:650px;flex-shrink:0}
 .brand img{
-  height:100px;
+  height:140px;
   width:auto;
-  max-width:430px;
+  max-width:650px;
   object-fit:contain;
   display:block;
   filter:drop-shadow(0 0 12px rgba(139,44,255,.7));
