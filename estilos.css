@@ -41,7 +41,7 @@ body:before{
     object-fit:contain;
     display:block;
     filter:drop-shadow(0 0 12px rgba(139,44,255,.7));
-   margin-top:70px;
+   margin-top:55px;
 }
 nav{display:flex;gap:24px;align-items:center;flex:1;justify-content:center}
 nav a{color:white;text-decoration:none;font-weight:700;font-size:14px;white-space:nowrap}
