@@ -1,0 +1,1 @@
+Plantilla original modificada: menú Inicio/Nosotros/Proyectos/Tienda/Galería/Contacto, Instagram, tienda, galería y corrección de margen horizontal.
