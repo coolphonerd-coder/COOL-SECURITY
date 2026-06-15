@@ -33,14 +33,14 @@ body:before{
   position:relative;
   z-index:2;
 }
-.brand{width:800px;flex-shrink:0}
+.brand{width:430px;flex-shrink:0}
 .brand img{
-  height:180px;
-  width:auto;
-  max-width:180px;
-  object-fit:contain;
-  display:block;
-  filter:drop-shadow(0 0 12px rgba(139,44,255,.7));
+    height:110px;
+    width:auto;
+    max-width:430px;
+    object-fit:contain;
+    display:block;
+    filter:drop-shadow(0 0 12px rgba(139,44,255,.7));
 }
 nav{display:flex;gap:24px;align-items:center;flex:1;justify-content:center}
 nav a{color:white;text-decoration:none;font-weight:700;font-size:14px;white-space:nowrap}
