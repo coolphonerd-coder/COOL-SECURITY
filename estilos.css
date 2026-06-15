@@ -33,7 +33,7 @@ body:before{
   position:relative;
   z-index:2;
 }
-.brand{width:430px;flex-shrink:0}
+.brand{width:800px;flex-shrink:0}
 .brand img{
     height:110px;
     width:auto;
