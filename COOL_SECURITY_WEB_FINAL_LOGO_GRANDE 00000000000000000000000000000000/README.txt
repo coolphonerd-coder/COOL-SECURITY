@@ -1,1 +1,0 @@
-Versión corregida: logo grande en el encabezado. Sube todo el contenido a la raíz de GitHub reemplazando los archivos anteriores.
