@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Tienda online de COOL SECURITY: seguridad electrónica, Starlink, redes y energía.">
+  <title>Tienda Online | COOL SECURITY</title>
+  <link rel="stylesheet" href="tienda.css">
+</head>
+<body>
+  <header class="store-header">
+    <a class="store-brand" href="index.html"><img src="assets/logo-cool-security.png" alt="COOL SECURITY"></a>
+    <div class="store-search"><span>⌕</span><input id="searchInput" type="search" placeholder="Buscar cámaras, Starlink, routers…" autocomplete="off"></div>
+    <a class="header-link" href="index.html">Página principal</a>
+    <button class="cart-button" id="cartButton" type="button" aria-label="Abrir carrito">🛒 <span>Carrito</span><b id="cartCount">0</b></button>
+  </header>
+
+  <main>
+    <section class="store-hero">
+      <div><span class="eyebrow">TIENDA OFICIAL</span><h1>Tecnología que protege<br><em>y mantiene conectado.</em></h1><p>Compra equipos originales con asesoría, instalación profesional y cobertura nacional.</p><a href="#catalogo" class="primary-link">Ver productos</a></div>
+      <div class="hero-badges"><article><strong>🔒</strong><span>Compra segura</span></article><article><strong>🚚</strong><span>Envíos nacionales</span></article><article><strong>🛠️</strong><span>Instalación disponible</span></article><article><strong>✓</strong><span>Garantía asegurada</span></article></div>
+    </section>
+
+    <section class="shop-shell" id="catalogo">
+      <div class="shop-heading"><div><span class="eyebrow">CATÁLOGO</span><h2>Productos destacados</h2></div><p id="resultCount"></p></div>
+      <div class="category-bar" id="categoryBar"></div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+  </main>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="drawer-head"><div><span class="eyebrow">TU COMPRA</span><h2>Carrito</h2></div><button id="closeCart" type="button" aria-label="Cerrar">×</button></div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-summary"><div><span>Subtotal</span><strong id="cartSubtotal">RD$0</strong></div><small>El costo de envío o instalación se confirma según la ubicación.</small><button class="checkout-button" id="checkoutButton" type="button">Continuar compra</button></div>
+  </aside>
+  <div class="overlay" id="overlay"></div>
+
+  <dialog id="checkoutDialog">
+    <form id="checkoutForm">
+      <div class="dialog-head"><div><span class="eyebrow">FINALIZAR PEDIDO</span><h2>Datos de compra</h2></div><button type="button" id="closeCheckout">×</button></div>
+      <div class="form-grid">
+        <label>Nombre completo<input name="name" required></label>
+        <label>Teléfono / WhatsApp<input name="phone" inputmode="tel" required></label>
+        <label class="wide">Dirección de entrega<textarea name="address" required></textarea></label>
+        <label>Ciudad o provincia<input name="city" required></label>
+        <label>Forma de entrega<select name="delivery"><option>Envío a domicilio</option><option>Recoger en tienda</option><option>Instalación y entrega</option></select></label>
+      </div>
+      <fieldset><legend>Forma de pago</legend><label><input type="radio" name="payment" value="Transferencia" checked> Transferencia</label><label><input type="radio" name="payment" value="Contra entrega"> Contra entrega</label><label><input type="radio" name="payment" value="Tarjeta"> Tarjeta</label><label><input type="radio" name="payment" value="WhatsApp"> WhatsApp</label></fieldset>
+      <p class="payment-note" id="paymentNote">Recibirás los datos bancarios y la confirmación del pedido por WhatsApp.</p>
+      <button class="checkout-button" type="submit">Crear pedido</button>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast"></div>
+  <a class="whatsapp-float" href="https://wa.me/18095095225" target="_blank" aria-label="WhatsApp">●</a>
+  <footer><img src="assets/logo-cool-security.png" alt="COOL SECURITY"><p>Hato Mayor del Rey · Punta Cana · Santo Domingo · (809) 509-5225</p><a href="pos.html">Acceso POS</a></footer>
+  <script src="catalogo.js"></script>
+  <script src="tienda.js"></script>
+</body>
+</html>
