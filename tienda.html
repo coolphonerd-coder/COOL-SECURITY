@@ -9,16 +9,37 @@
 </head>
 <body>
   <header class="store-header">
+    <button class="back-button" type="button" aria-label="Volver a la página anterior" onclick="history.back()">←</button>
     <a class="store-brand" href="index.html"><img src="assets/logo-cool-security.png" alt="COOL SECURITY"></a>
     <div class="store-search"><span>⌕</span><input id="searchInput" type="search" placeholder="Buscar cámaras, Starlink, routers…" autocomplete="off"></div>
-    <a class="header-link" href="index.html">Página principal</a>
+    <a class="header-link" href="index.html">Inicio</a>
     <button class="cart-button" id="cartButton" type="button" aria-label="Abrir carrito">🛒 <span>Carrito</span><b id="cartCount">0</b></button>
   </header>
 
   <main>
     <section class="store-hero">
       <div><span class="eyebrow">TIENDA OFICIAL</span><h1>Tecnología que protege<br><em>y mantiene conectado.</em></h1><p>Compra equipos originales con asesoría, instalación profesional y cobertura nacional.</p><a href="#catalogo" class="primary-link">Ver productos</a></div>
-      <div class="hero-badges"><article><strong>🔒</strong><span>Compra segura</span></article><article><strong>🚚</strong><span>Envíos nacionales</span></article><article><strong>🛠️</strong><span>Instalación disponible</span></article><article><strong>✓</strong><span>Garantía asegurada</span></article></div>
+      <div class="hero-visual" role="img" aria-label="Cámaras de seguridad, internet satelital, redes, control de acceso y energía solar">
+        <div class="hero-slides" aria-hidden="true">
+          <img class="hero-slide active" src="assets/hero-carousel/portada-01.webp" alt="">
+          <img class="hero-slide" src="assets/hero-carousel/portada-02.webp" alt="">
+          <img class="hero-slide" src="assets/hero-carousel/portada-03.webp" alt="">
+          <img class="hero-slide" src="assets/hero-carousel/portada-04.webp" alt="">
+          <img class="hero-slide" src="assets/hero-carousel/portada-05.webp" alt="">
+          <img class="hero-slide" src="assets/hero-carousel/portada-06.webp" alt="">
+          <img class="hero-slide" src="assets/hero-carousel/portada-07.webp" alt="">
+          <img class="hero-slide" src="assets/hero-carousel/portada-08.webp" alt="">
+          <img class="hero-slide" src="assets/hero-carousel/portada-09.webp" alt="">
+          <img class="hero-slide" src="assets/hero-carousel/portada-10.webp" alt="">
+          <img class="hero-slide" src="assets/hero-carousel/portada-11.webp" alt="">
+          <img class="hero-slide" src="assets/hero-carousel/portada-12.webp" alt="">
+          <img class="hero-slide" src="assets/hero-carousel/portada-13.webp" alt="">
+        </div>
+        <button class="slider-arrow previous" type="button" aria-label="Imagen anterior">‹</button>
+        <button class="slider-arrow next" type="button" aria-label="Imagen siguiente">›</button>
+        <div class="slider-dots" aria-label="Seleccionar imagen"></div>
+        <div class="hero-badges"><article><strong>🔒</strong><span>Compra segura</span></article><article><strong>🚚</strong><span>Envíos nacionales</span></article><article><strong>🛠️</strong><span>Instalación disponible</span></article><article><strong>✓</strong><span>Garantía asegurada</span></article></div>
+      </div>
     </section>
 
     <section class="shop-shell" id="catalogo">
